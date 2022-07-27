@@ -21,7 +21,7 @@ var ball ={
         this.xpos = (cnv.width-this.size)/2;
         this.ypos = (cnv.height-this.size)/2;
     },
-    xvel: 16,
+    xvel: 10,
     yvel : 10,
     update: function(){
         this.xpos += this.xvel;
